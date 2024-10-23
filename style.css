@@ -43,9 +43,7 @@ main#wikilink a:hover {
     background-color: rgb(89, 47, 255);
 }
 
-main {
-    clear
-}
+
 
 #cabbage {
     margin: 10px;
@@ -55,9 +53,7 @@ main {
     );
 }
 
-footer {
-    clear
-}
+
 
 ul{
     padding: 6px;
