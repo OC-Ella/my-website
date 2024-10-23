@@ -5,8 +5,10 @@ ul>li {
 }
 
 body {
-    background-color: rgb(243, 223, 192);
-    color: rgb(30, 30, 104);
+    background: rgb(41, 255, 209) url("Pictures/Elise3.jpeg");
+    background-repeat: repeat;
+    background-attachment: scroll;
+    color: rgb(222, 38, 38);
 }
 
 #text {
@@ -15,4 +17,54 @@ body {
 
 main#wikilink a:hover {
     font-size: 300%;
+}
+
+.Elise1 {
+    float: left;
+    margin: 1px 30px 5% 1em;
+    padding: 1em;
+    border: 4px double rgb(53, 14, 34);
+    background-color: rgb(75, 100, 38);
+}
+
+.Sparkle1 {
+    float: left;
+    border: 3em dotted cyan;
+    padding: 3px;
+    margin: 2px 0px 10% 1em;
+    background-color: rgb(93, 12, 95);
+}
+
+.Shimmer1 {
+    margin: 0px 3px 2% 3em;
+    border: 2px inset;
+    border-radius: 0px 20px 2px;
+    box-shadow: 3px 5px 20px 3px rgb(158, 13, 13);
+    background-color: rgb(89, 47, 255);
+}
+
+main {
+    clear
+}
+
+#cabbage {
+    margin: 10px;
+    text-align: center;
+    background-image: linear-gradient( 
+        45deg, black 10%, yellow 40%, red 100%
+    );
+}
+
+footer {
+    clear
+}
+
+ul{
+    padding: 6px
+}
+
+#catinfo {
+    background-color: rgb(104, 79, 47);
+    margin: 1px;
+    padding: 1px;
 }
