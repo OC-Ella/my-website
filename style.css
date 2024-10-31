@@ -1,14 +1,61 @@
-
-ul>li {
-    font-weight:700;
-    font-family: Georgia, 'Times New Roman', Times, serif
+/* Here is the basic formatting of my website  */
+#html {
+    text-align: center;
+    color: rgb(224, 28, 224);
+    background-color: rgb(155, 160, 239);
+    margin-left: 15%;
+    margin-right: 15%;
+    border-radius: 10px;
+    background-image: linear-gradient( 
+        45deg, rgb(239, 139, 230) 10%, rgb(155, 160, 239) 40%, rgb(107, 206, 162) 100%
+    );
 }
 
+/* Here is the scalable image of my cat Elise */
+#elise {
+    width: 100%;
+}
+
+/* Here is the navigation menu CSS */
+#nav_menu ul {list-style-type: none }
+#nav_menu ul li a{
+    text-align: center;
+    display:block;
+    width 20%;
+    padding 10%;
+    text-decoration: none;
+    background-color: rgb(155, 160, 239);
+    color: rgb(224, 28, 224);
+    font-weight: bold;
+    border: 2px solid rgb(107, 206, 162);
+}
+
+/* Here is the section with the cat images */
+article {
+    background-color: blanchedalmond;
+    border-radius: 10px;
+    column-count: 3;
+    column-gap: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: "papyrus";
+    font-weight: 560;
+    border: 3px solid rgb(130, 119, 95);
+}
+
+/* Here is some extra minor formatting things */
 body {
-    background: rgb(41, 255, 209) url("Pictures/Elise3.jpeg");
-    background-repeat: repeat;
-    background-attachment: scroll;
-    color: rgb(222, 38, 38);
+    font-family: "papyrus";
+    font-weight: 400;
+    background: rgb(151, 237, 218)
+}
+
+.catpic {
+    border-radius: 10px;
+}
+
+div{
+    text-align: center;
 }
 
 #text {
@@ -19,48 +66,34 @@ main#wikilink a:hover {
     font-size: 300%;
 }
 
-.Elise1 {
-    float: left;
-    margin: 1px 30px 5% 1em;
-    padding: 1em;
-    border: 4px double rgb(53, 14, 34);
-    background-color: rgb(75, 100, 38);
-}
-
-.Sparkle1 {
-    float: left;
-    border: 3em dotted cyan;
-    padding: 3px;
-    margin: 2px 0px 10% 1em;
-    background-color: rgb(93, 12, 95);
-}
-
-.Shimmer1 {
-    margin: 0px 3px 2% 3em;
-    border: 2px inset;
-    border-radius: 0px 20px 2px;
-    box-shadow: 3px 5px 20px 3px rgb(158, 13, 13);
-    background-color: rgb(89, 47, 255);
-}
-
-
-
+/*Here is the section with the wikipedia link that loads onto another tab.*/
 #cabbage {
-    margin: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
     text-align: center;
+    border-radius: 5px;
     background-image: linear-gradient( 
-        45deg, black 10%, yellow 40%, red 100%
+        45deg, rgb(239, 139, 230) 10%, rgb(155, 160, 239) 40%, rgb(107, 206, 162) 100%
     );
 }
 
-
-
-ul{
-    padding: 6px;
+/* Here is the section with the link to another website of mine, contain more cat pictures.*/
+#catinfo {
+    text-align: center;
+    background-color: blanchedalmond;
+    border: 3px solid rgb(130, 119, 95);
+    margin-left: 40%;
+    margin-right: 40%;
+    border-radius: 4px;
 }
 
-#catinfo {
-    background-color: rgb(104, 79, 47);
-    margin: 1px;
-    padding: 1px;
+/*Here is just the formatting stuff for my footer.*/
+footer {
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: center;
+    border-radius: 5px;
+    background-image: linear-gradient( 
+        45deg, rgb(239, 139, 230) 10%, rgb(155, 160, 239) 40%, rgb(107, 206, 162) 100%
+    );
 }
