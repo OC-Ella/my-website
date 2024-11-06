@@ -1,6 +1,7 @@
 /* Here is the basic formatting of my website  */
-#html {
+html {
     text-align: center;
+    font-family: "papyrus";
     color: rgb(224, 28, 224);
     background-color: rgb(155, 160, 239);
     margin-left: 15%;
@@ -11,34 +12,38 @@
     );
 }
 
-/* Here is the scalable image of my cat Elise */
-#elise {
-    width: 100%;
+/* Here is the navigation menu CSS using a Flex Box*/
+#nav_menu ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type:none;
 }
-
-/* Here is the navigation menu CSS */
-#nav_menu ul {list-style-type: none }
 #nav_menu ul li a{
-    text-align: center;
+    text-align:center;
     display:block;
-    width 20%;
-    padding 10%;
     text-decoration: none;
-    background-color: rgb(155, 160, 239);
+    background-color: #9ba0ef;
     color: rgb(224, 28, 224);
     font-weight: bold;
     border: 2px solid rgb(107, 206, 162);
 }
 
-/* Here is the section with the cat images */
+nav {
+    text-align: center;
+    font-size: large;
+}
+
+/* Here is the section with the cat images and a Flex Box */ 
 article {
-    background-color: blanchedalmond;
-    border-radius: 10px;
-    column-count: 3;
-    column-gap: 5%;
+    display:flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-evenly;
+    background-color: rgb(255, 187, 231);
+    border-radius: 20px;
     margin-left: 10%;
     margin-right: 10%;
-    font-family: "papyrus";
     font-weight: 560;
     border: 3px solid rgb(130, 119, 95);
 }
@@ -47,15 +52,23 @@ article {
 body {
     font-family: "papyrus";
     font-weight: 400;
-    background: rgb(151, 237, 218)
-}
-
-.catpic {
+    background-color: rgb(205, 206, 227);
     border-radius: 10px;
+    border: 3px solid rgb(130, 119, 95);
 }
 
-div{
-    text-align: center;
+#elise {
+    margin-left: 5%;
+}
+
+#shimmer{
+    margin-right: 5%;
+}
+
+img {
+    border-radius: 2%;
+    margin: 20%;
+    border: 3px solid rgb(130, 119, 95);
 }
 
 #text {
@@ -80,7 +93,7 @@ main#wikilink a:hover {
 /* Here is the section with the link to another website of mine, contain more cat pictures.*/
 #catinfo {
     text-align: center;
-    background-color: blanchedalmond;
+    background-color: rgb(255, 187, 231);
     border: 3px solid rgb(130, 119, 95);
     margin-left: 40%;
     margin-right: 40%;
@@ -96,4 +109,27 @@ footer {
     background-image: linear-gradient( 
         45deg, rgb(239, 139, 230) 10%, rgb(155, 160, 239) 40%, rgb(107, 206, 162) 100%
     );
+}
+
+/*All of this page's Media Queries*/
+@media only screen and (max-width: 1450px){
+    article {
+        width: 70%
+    }
+    #elise {
+        width: 70%;
+    }
+    #sparkle {
+        width: 70%;
+    }
+    #shimmer{
+        width: 70%
+    }
+}
+
+@media only screen and (max-width: 990px){
+    #catinfo {
+        width: 50%;
+        margin-left: 25%;
+    }
 }

@@ -1,0 +1,53 @@
+body {
+    text-align: center;
+    font-family: "papyrus";
+    font-size: large;
+    color: rgb(224, 28, 224);
+    background-color: rgb(205, 206, 227);
+}
+
+/*Nav Menu with a Flex Box*/
+#nav_menu ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type:none;
+}
+#nav_menu ul li a{
+    text-align:center;
+    display:block;
+    text-decoration: none;
+    background-color: #9ba0ef;
+    color: rgb(224, 28, 224);
+    font-weight: bold;
+    border: 2px solid rgb(107, 206, 162);
+}
+
+nav {
+    text-align: center;
+}
+
+/*Page Built with Grid Layout*/
+main{
+    display: grid;
+    grid-template: repeat(3, 25%)/repeat(3, 16%);
+    grid-gap: 15px 20px;
+    grid-row-gap: 30%;
+    justify-content: space-evenly;
+}
+
+img{
+    width: 100%;
+    border-radius: 15px;
+    border: solid;
+    border-color: rgb(155, 160, 239);
+    border-width: 3px;
+}
+
+footer{
+    height: 40px;
+    align-items: center;
+    justify-items: center;
+}
+
+/*This page did not need any media queries*/
