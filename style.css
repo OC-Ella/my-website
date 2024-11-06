@@ -7,21 +7,20 @@ html {
     margin-left: 15%;
     margin-right: 15%;
     border-radius: 10px;
-    background-image: linear-gradient( 
-        45deg, rgb(239, 139, 230) 10%, rgb(155, 160, 239) 40%, rgb(107, 206, 162) 100%
-    );
+    background-image: linear-gradient(45deg, rgb(239, 139, 230) 10%, rgb(155, 160, 239) 40%, rgb(107, 206, 162) 100%);
 }
 
 /* Here is the navigation menu CSS using a Flex Box*/
-#nav_menu ul{
+#nav_menu ul {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    list-style-type:none;
+    list-style-type: none;
 }
-#nav_menu ul li a{
-    text-align:center;
-    display:block;
+
+#nav_menu ul li a {
+    text-align: center;
+    display: block;
     text-decoration: none;
     background-color: #9ba0ef;
     color: rgb(224, 28, 224);
@@ -34,9 +33,9 @@ nav {
     font-size: large;
 }
 
-/* Here is the section with the cat images and a Flex Box */ 
+/* Here is the section with the cat images and a Flex Box */
 article {
-    display:flex;
+    display: flex;
     flex-direction: row;
     list-style-type: none;
     justify-content: space-evenly;
@@ -61,7 +60,7 @@ body {
     margin-left: 5%;
 }
 
-#shimmer{
+#shimmer {
     margin-right: 5%;
 }
 
@@ -85,9 +84,7 @@ main#wikilink a:hover {
     margin-right: 10%;
     text-align: center;
     border-radius: 5px;
-    background-image: linear-gradient( 
-        45deg, rgb(239, 139, 230) 10%, rgb(155, 160, 239) 40%, rgb(107, 206, 162) 100%
-    );
+    background-image: linear-gradient(45deg, rgb(239, 139, 230) 10%, rgb(155, 160, 239) 40%, rgb(107, 206, 162) 100%);
 }
 
 /* Here is the section with the link to another website of mine, contain more cat pictures.*/
@@ -106,28 +103,29 @@ footer {
     margin-right: 30%;
     text-align: center;
     border-radius: 5px;
-    background-image: linear-gradient( 
-        45deg, rgb(239, 139, 230) 10%, rgb(155, 160, 239) 40%, rgb(107, 206, 162) 100%
-    );
+    background-image: linear-gradient(45deg, rgb(239, 139, 230) 10%, rgb(155, 160, 239) 40%, rgb(107, 206, 162) 100%);
 }
 
 /*All of this page's Media Queries*/
-@media only screen and (max-width: 1450px){
+@media only screen and (max-width: 1450px) {
     article {
         width: 70%
     }
+
     #elise {
         width: 70%;
     }
+
     #sparkle {
         width: 70%;
     }
-    #shimmer{
+
+    #shimmer {
         width: 70%
     }
 }
 
-@media only screen and (max-width: 990px){
+@media only screen and (max-width: 990px) {
     #catinfo {
         width: 50%;
         margin-left: 25%;

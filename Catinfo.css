@@ -1,13 +1,14 @@
 /*Nav Menu with a Flex Box*/
-#nav_menu ul{
+#nav_menu ul {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    list-style-type:none;
+    list-style-type: none;
 }
-#nav_menu ul li a{
-    text-align:center;
-    display:block;
+
+#nav_menu ul li a {
+    text-align: center;
+    display: block;
     text-decoration: none;
     background-color: #9ba0ef;
     color: rgb(224, 28, 224);
@@ -19,7 +20,7 @@ nav {
     text-align: center;
 }
 
-.title{
+.title {
     text-align: center;
 }
 
@@ -70,7 +71,7 @@ img {
 
 #Shimmer {
     margin-top: 2px;
-    margin-left:5px;
+    margin-left: 5px;
     padding: 15px;
     background-color: rgb(255, 187, 231);
     border-radius: 15px;
@@ -82,18 +83,19 @@ html {
 }
 
 /*All of this page's Media Queries*/
-@media only screen and (max-width: 960px){
-    img{
+@media only screen and (max-width: 960px) {
+    img {
         margin-left: 10%;
     }
 }
 
-@media only screen and (max-width: 800px){
-    img{
+@media only screen and (max-width: 800px) {
+    img {
         margin-left: 25%;
         margin-right: 30%;
     }
-    article{
+
+    article {
         display: grid;
         width: 50%;
         text-align: center;
@@ -102,11 +104,12 @@ html {
     }
 }
 
-@media only screen and (max-width: 800px){
-    img{
+@media only screen and (max-width: 800px) {
+    img {
         margin-left: 10%;
     }
-    #elise{
+
+    #elise {
         margin-left: 2%;
     }
 }

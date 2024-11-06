@@ -1,13 +1,14 @@
 /*Nav Menu with a Flex Box*/
-#nav_menu ul{
+#nav_menu ul {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    list-style-type:none;
+    list-style-type: none;
 }
-#nav_menu ul li a{
-    text-align:center;
-    display:block;
+
+#nav_menu ul li a {
+    text-align: center;
+    display: block;
     text-decoration: none;
     background-color: #9ba0ef;
     color: rgb(224, 28, 224);
@@ -20,19 +21,19 @@ nav {
     font-size: large;
 }
 
-body{
+body {
     background-color: rgb(205, 206, 227);
     font-family: "papyrus";
-    color:rgb(130, 119, 95);
+    color: rgb(130, 119, 95);
 }
 
-article{
+article {
     margin: 2%;
     column-count: 3;
-    column-gap:6%;
+    column-gap: 6%;
 }
 
-footer{
+footer {
     text-align: center;
     margin-top: 3%;
 }

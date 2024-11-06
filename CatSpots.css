@@ -7,15 +7,16 @@ body {
 }
 
 /*Nav Menu with a Flex Box*/
-#nav_menu ul{
+#nav_menu ul {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    list-style-type:none;
+    list-style-type: none;
 }
-#nav_menu ul li a{
-    text-align:center;
-    display:block;
+
+#nav_menu ul li a {
+    text-align: center;
+    display: block;
     text-decoration: none;
     background-color: #9ba0ef;
     color: rgb(224, 28, 224);
@@ -28,7 +29,7 @@ nav {
 }
 
 /*Page Built with Grid Layout*/
-main{
+main {
     display: grid;
     grid-template: repeat(3, 25%)/repeat(3, 16%);
     grid-gap: 15px 20px;
@@ -36,7 +37,7 @@ main{
     justify-content: space-evenly;
 }
 
-img{
+img {
     width: 100%;
     border-radius: 15px;
     border: solid;
@@ -44,7 +45,7 @@ img{
     border-width: 3px;
 }
 
-footer{
+footer {
     height: 40px;
     align-items: center;
     justify-items: center;
