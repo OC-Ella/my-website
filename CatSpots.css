@@ -3,7 +3,7 @@ body {
     font-family: "papyrus";
     font-size: large;
     color: rgb(224, 28, 224);
-    background-color: rgb(205, 206, 227);
+    background-color: #2d304b;
 }
 
 /*Nav Menu with a Flex Box*/
@@ -17,11 +17,15 @@ body {
 #nav_menu ul li a {
     text-align: center;
     display: block;
+    padding-left: 4em;
+    padding-right: 4em;
+    justify-content: space-evenly;
     text-decoration: none;
-    background-color: #9ba0ef;
+    background-color: #595a62;
     color: rgb(224, 28, 224);
     font-weight: bold;
-    border: 2px solid rgb(107, 206, 162);
+    border: 2px solid rgb(155, 160, 239);
+
 }
 
 nav {

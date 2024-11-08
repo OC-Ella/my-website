@@ -3,11 +3,10 @@ html {
     text-align: center;
     font-family: "papyrus";
     color: rgb(224, 28, 224);
-    background-color: rgb(155, 160, 239);
     margin-left: 15%;
     margin-right: 15%;
     border-radius: 10px;
-    background-image: linear-gradient(45deg, rgb(239, 139, 230) 10%, rgb(155, 160, 239) 40%, rgb(107, 206, 162) 100%);
+    background-color: #2d304b;
 }
 
 /* Here is the navigation menu CSS using a Flex Box*/
@@ -21,11 +20,15 @@ html {
 #nav_menu ul li a {
     text-align: center;
     display: block;
+    padding-left: 4em;
+    padding-right: 4em;
+    justify-content: space-evenly;
     text-decoration: none;
-    background-color: #9ba0ef;
+    background-color: #595a62;
     color: rgb(224, 28, 224);
     font-weight: bold;
-    border: 2px solid rgb(107, 206, 162);
+    border: 2px solid rgb(155, 160, 239);
+    border-radius: 100px;
 }
 
 nav {
@@ -39,7 +42,7 @@ article {
     flex-direction: row;
     list-style-type: none;
     justify-content: space-evenly;
-    background-color: rgb(255, 187, 231);
+    background-color: #595a62;
     border-radius: 20px;
     margin-left: 10%;
     margin-right: 10%;
@@ -51,9 +54,6 @@ article {
 body {
     font-family: "papyrus";
     font-weight: 400;
-    background-color: rgb(205, 206, 227);
-    border-radius: 10px;
-    border: 3px solid rgb(130, 119, 95);
 }
 
 #elise {
@@ -74,6 +74,19 @@ img {
     font-weight: 900;
 }
 
+#pagelink {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-evenly;
+    background-color:rgb(130, 119, 95);
+    border-radius: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-weight: 560;
+    border: 3px solid  #595a62;
+}
+
 main#wikilink a:hover {
     font-size: 300%;
 }
@@ -84,13 +97,14 @@ main#wikilink a:hover {
     margin-right: 10%;
     text-align: center;
     border-radius: 5px;
-    background-image: linear-gradient(45deg, rgb(239, 139, 230) 10%, rgb(155, 160, 239) 40%, rgb(107, 206, 162) 100%);
+    border: 3px solid rgb(130, 119, 95);
+    background-color: #595a62;
 }
 
 /* Here is the section with the link to another website of mine, contain more cat pictures.*/
 #catinfo {
     text-align: center;
-    background-color: rgb(255, 187, 231);
+    background-color: #595a62;
     border: 3px solid rgb(130, 119, 95);
     margin-left: 40%;
     margin-right: 40%;
@@ -103,7 +117,7 @@ footer {
     margin-right: 30%;
     text-align: center;
     border-radius: 5px;
-    background-image: linear-gradient(45deg, rgb(239, 139, 230) 10%, rgb(155, 160, 239) 40%, rgb(107, 206, 162) 100%);
+    color:rgb(155, 160, 239)
 }
 
 /*All of this page's Media Queries*/

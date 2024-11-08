@@ -1,3 +1,7 @@
+html {
+    background-color: #2d304b;
+}
+
 /*Nav Menu with a Flex Box*/
 #nav_menu ul {
     display: flex;
@@ -9,11 +13,15 @@
 #nav_menu ul li a {
     text-align: center;
     display: block;
+    padding-left: 4em;
+    padding-right: 4em;
+    justify-content: space-evenly;
     text-decoration: none;
-    background-color: #9ba0ef;
+    background-color: #595a62;
     color: rgb(224, 28, 224);
     font-weight: bold;
-    border: 2px solid rgb(107, 206, 162);
+    border: 2px solid rgb(155, 160, 239);
+
 }
 
 nav {
@@ -43,7 +51,7 @@ body {
 /*Flex Box to Align Images and Text in Columns*/
 img {
     border-radius: 10px;
-    border: 3px solid rgb(107, 206, 162);
+    border: 3px solid  rgb(130, 119, 95);
     margin-left: 30%;
     margin-right: 30%;
     display: flex;
@@ -55,31 +63,27 @@ img {
 #Elise {
     margin-bottom: 2px;
     padding: 15px;
-    background-color: rgb(255, 187, 231);
+    background-color: #595a62;
     border-radius: 15px;
-    border: 3px solid rgb(130, 119, 95);
+    border: 3px solid  rgb(155, 160, 239);
 }
 
 #Sparkle {
     margin-bottom: 30px;
     margin-left: 10px;
     padding: 15px;
-    background-color: rgb(255, 187, 231);
+    background-color: #595a62;
     border-radius: 15px;
-    border: 3px solid rgb(130, 119, 95);
+    border: 3px solid  rgb(155, 160, 239);
 }
 
 #Shimmer {
     margin-top: 2px;
     margin-left: 5px;
     padding: 15px;
-    background-color: rgb(255, 187, 231);
+    background-color: #595a62;
     border-radius: 15px;
-    border: 3px solid rgb(130, 119, 95);
-}
-
-html {
-    background-color: rgb(205, 206, 227);
+    border: 3px solid rgb(155, 160, 239);
 }
 
 /*All of this page's Media Queries*/
