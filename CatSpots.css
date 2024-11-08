@@ -25,6 +25,7 @@ body {
     color: rgb(224, 28, 224);
     font-weight: bold;
     border: 2px solid rgb(155, 160, 239);
+    border-radius: 100px;
 
 }
 
