@@ -1,0 +1,16 @@
+Suggestion 1) Hunter Balsz - "...I love the dark background colors as it's easier on my eyes but the 
+              gray background with the magenta/purple color messes with my eyes when trying to read."
+
+Fixed By: To fix this issue, I made the gray background a bit darker and the magenta font color a bit
+          lighter. This way, the text is much easier to read and user-friendly. Additionally, I did 
+          this on every single CSS document, wherever these colors were located.
+
+Suggestion 2) Hunter Balsz - "Another thing that I wouldn't mind to see is a scenic background on there
+              instead of a blue background on all 4 pages."
+
+Fixed By: To fix this issue, I added an scenic background on my "Extra Cats" webpage, consisting of clouds.
+
+Suggestion 3) Sammuel Henninger - "...I want to see more pictures of the cats."
+
+Fixed By: To fix this issue, I added more cat pictures! More specifically, I made my final webpage, "Extra Cats," 
+          contain some images of new cats that I have met.

@@ -2,7 +2,6 @@ html {
     background-color: #2d304b;
 }
 
-/*Nav Menu with a Flex Box*/
 #nav_menu ul {
     display: flex;
     flex-direction: row;
@@ -13,13 +12,12 @@ html {
 #nav_menu ul li a {
     text-align: center;
     display: block;
-    padding-left: 4em;
-    padding-right: 4em;
+    padding-left: 3em;
+    padding-right: 3em;
     justify-content: space-evenly;
     text-decoration: none;
-    background-color: #595a62;
-    color: rgb(224, 28, 224);
-    font-weight: bold;
+    background-color:#404147;
+    color: rgb(253, 184, 253);
     border: 2px solid rgb(155, 160, 239);
     border-radius: 100px;
 
@@ -43,10 +41,8 @@ article {
 }
 
 body {
-    font-family: 'papyrus';
-    font-size: large;
-    font-weight: 800;
-    color: rgb(224, 28, 224);
+    font-family: "Fontdiner Swanky", serif;
+    color: rgb(253, 184, 253);
 }
 
 /*Flex Box to Align Images and Text in Columns*/
@@ -64,7 +60,7 @@ img {
 #Elise {
     margin-bottom: 2px;
     padding: 15px;
-    background-color: #595a62;
+    background-color: #404147;
     border-radius: 15px;
     border: 3px solid  rgb(155, 160, 239);
 }
@@ -73,7 +69,7 @@ img {
     margin-bottom: 30px;
     margin-left: 10px;
     padding: 15px;
-    background-color: #595a62;
+    background-color:#404147;
     border-radius: 15px;
     border: 3px solid  rgb(155, 160, 239);
 }
@@ -82,7 +78,7 @@ img {
     margin-top: 2px;
     margin-left: 5px;
     padding: 15px;
-    background-color: #595a62;
+    background-color: #404147;
     border-radius: 15px;
     border: 3px solid rgb(155, 160, 239);
 }
@@ -117,4 +113,12 @@ img {
     #elise {
         margin-left: 2%;
     }
+}
+
+@media only screen and (max-width: 920px) {
+
+    #nav_menu ul li a{
+        padding-left: 1em;
+        padding-right: 1em;
+    } 
 }
