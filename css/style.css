@@ -1,0 +1,176 @@
+/* Here is the basic formatting of my website  */
+html {
+    text-align: center;
+    /*Here is the Google Font*/
+    font-family: "Lilita One", sans-serif;
+    color: rgb(54, 58, 103);
+    margin-left: 15%;
+    margin-right: 15%;
+    border-radius: 10px;
+    background-color: #2d304b;
+}
+
+/*Here is the Nav Menu formatting*/
+#nav_menu ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+}
+
+#nav_menu ul li a {
+    text-align: center;
+    display: block;
+    padding-left: 3em;
+    padding-right: 3em;
+    justify-content: space-evenly;
+    text-decoration: none;
+    background-color: #e3e5f3;
+    color: rgb(187, 81, 40);
+    border: 2px solid rgb(96, 100, 165);
+    border-radius: 100px;
+    margin-bottom: 3%;
+}
+
+#nav_menu ul li a:hover {
+    /*Formatting for when you hover over each navigation menu textbox.*/
+    background-color: rgb(187, 81, 40);
+    color: rgb(227, 229, 243);
+    border: none;
+    box-shadow: 0 0 2em rgb(187, 81, 40, 1);
+}
+
+nav {
+    text-align: center;
+    font-size: large;
+    background-color: rgb(238, 178, 154);
+    margin: 0 -20em 0 -20em;
+    border-bottom: 3px solid rgb(96, 100, 165);
+    border-top: 3px solid rgb(96, 100, 165);
+}
+
+/* Here is most of my website's formatting. */
+body {
+    /*Here is the Google Font*/
+    font-family: "Lilita One", sans-serif;
+    font-weight: lighter;
+}
+
+Header {
+    /*This also formats the sections with images but not the images themselves (other than moving the pictures around).*/
+    /*Here is the Google Font*/
+    font-family: "Lilita One", sans-serif;
+    font-weight: lighter;
+}
+
+article {
+    /*This also formats the sections with images but not the images themselves (other than moving the pictures around).*/
+    margin-top: 2%;
+    display: flex;
+    flex-direction: row;
+    column-gap: 10%;
+    list-style-type: none;
+    justify-content: space-evenly;
+    width: 120%;
+    margin-left: -12%;
+    background-color: #e3e5f3;
+    border-radius: 20px;
+    font-weight: lighter;
+    border: 3px solid rgb(96, 100, 165);
+}
+
+/*Here is the formatting of the images and their subtitles.*/
+#elise {
+    /*Formatting for Elise's image location.*/
+    margin-left: -2%;
+    margin-top: 13%;
+}
+
+#sparkle {
+    /*Formatting for Sparkle's image location.*/
+    margin-left: -1.5%;
+}
+
+#shimmer {
+    /*Formatting for Shimmer's image location.*/
+    margin-left: -1%;
+}
+
+.catTitle {
+    /*Formatting for the image titles.*/
+    margin-bottom: 5%;
+    text-align: center;
+    font-size: x-large;
+}
+
+img {
+    border-radius: 15px;
+    width: 100%;
+    margin: 5%;
+    border: 3px solid rgb(187, 81, 40);
+    padding: 1%;
+    background-color: rgb(238, 178, 154);
+}
+
+/*Here is the formatting details for the two sections with links and the footer.*/
+.design-ect {
+    background-color: #e3e5f3;
+    border: 3px solid rgb(96, 100, 165);
+    border-radius: 30px !important;
+}
+
+#cabbage {
+    /*Formatting for the "Cats are amazing!" section.*/
+    text-align: center;
+    background: rgb(238, 178, 154);
+    border: 3px solid rgb(96, 100, 165);
+}
+
+#catinfo {
+    /*Formatting for the "My Cats!!!" section*/
+    text-align: center;
+    margin-left: 50%;
+    margin-right: 50%;
+    width: 25%;
+    margin-left: 38%;
+}
+
+footer {
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: center;
+    border-radius: 3px !important;
+    color: rgb(187, 81, 40);
+    font-weight: lighter;
+    width: 25%;
+    margin: 2.5% 37%;
+}
+
+/*All of this page's Media Queries*/
+
+@media only screen and (max-width: 1200px) {
+    #catinfo {
+        width: 50%;
+        margin-left: 25%;
+    }
+
+    img {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 1020px) {
+
+    #nav_menu ul li a {
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+}
+
+@media only screen and (max-width: 670px) {
+
+    #nav_menu ul li a {
+        padding-left: .25em;
+        padding-right: .25em;
+    }
+}

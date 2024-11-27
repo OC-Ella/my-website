@@ -1,0 +1,129 @@
+/*Here is the Nav Menu formatting*/
+#nav_menu ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+}
+
+#nav_menu ul li a {
+    text-align: center;
+    display: block;
+    padding-left: 3em;
+    padding-right: 3em;
+    justify-content: space-evenly;
+    text-decoration: none;
+    background-color: #e3e5f3;
+    color: rgb(187, 81, 40);
+    border: 2px solid rgb(96, 100, 165);
+    border-radius: 100px;
+    margin-bottom: 3%;
+}
+
+#nav_menu ul li a:hover {
+    /*Formatting for when you hover over each navigation menu textbox.*/
+    background-color: rgb(187, 81, 40);
+    color: rgb(227, 229, 243);
+    border: none;
+    box-shadow: 0 0 2em rgb(187, 81, 40, 1);
+}
+
+nav {
+    text-align: center;
+    font-size: large;
+    background-color: rgb(238, 178, 154);
+    margin: 0 -20em 0 -20em;
+    border-bottom: 3px solid rgb(96, 100, 165);
+    border-top: 3px solid rgb(96, 100, 165);
+}
+
+/* Here is the rest of my website's formatting. */
+body {
+    /*Here is the Google Font*/
+    font-family: "Lilita One", sans-serif;
+    background-color: #2d304b;
+}
+
+h1 {
+    /*Title formatting*/
+    color: rgb(54, 58, 103);
+}
+
+main {
+    /*General webpage formatting and layout.*/
+    margin-top: 2%;
+    display: flex;
+    flex-direction: row;
+    border: none !important;
+    justify-content: space-between;
+}
+
+div {
+    /*This contains all of the information in each section of the page.*/
+    display: flex;
+    flex-direction: column;
+    margin: 0 5%;
+    width: 190%;
+    color: rgb(54, 58, 103);
+    border: 3px solid rgb(96, 100, 165);
+    background-color: rgb(227, 229, 243);
+}
+
+/*The data and formatting within the Div elements.*/
+p {
+    font-size: xx-large;
+    text-align: center;
+}
+
+ul {
+    font-size: large;
+}
+
+img {
+    width: 80%;
+    margin: 5%;
+    margin-left: 8%;
+    border: 3px solid, rgb(187, 81, 40);
+    background-color: rgb(238, 178, 154);
+}
+
+.imgDivExtras {
+    /*Formatting just for the Div and Image elements.*/
+    border-radius: 15px;
+    padding: 1%;
+}
+
+/*All of this page's Media Queries*/
+@media only screen and (max-width: 920px) {
+    #nav_menu ul li a {
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+
+    header {
+        justify-content: space-between;
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media only screen and (max-width: 1020px) {
+    img {
+        width: 60%;
+        margin-left: 15%;
+    }
+}
+
+@media only screen and (max-width: 670px) {
+    img {
+        width: 75%;
+    }
+
+    ul {
+        font-size: small;
+    }
+
+    p {
+        font-size: medium;
+    }
+}

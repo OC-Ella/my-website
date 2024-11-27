@@ -1,0 +1,112 @@
+/*Here is the Nav Menu formatting*/
+#nav_menu ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+}
+
+#nav_menu ul li a {
+    text-align: center;
+    display: block;
+    padding-left: 3em;
+    padding-right: 3em;
+    justify-content: space-evenly;
+    text-decoration: none;
+    background-color: #e3e5f3;
+    color: rgb(187, 81, 40);
+    border: 2px solid rgb(96, 100, 165);
+    border-radius: 100px;
+    margin-bottom: 3%;
+}
+
+#nav_menu ul li a:hover {
+    /*Formatting for when you hover over each navigation menu textbox.*/
+    background-color: rgb(187, 81, 40);
+    color: rgb(227, 229, 243);
+    border: none;
+    box-shadow: 0 0 2em rgb(187, 81, 40, 1);
+}
+
+nav {
+    text-align: center;
+    font-size: large;
+    background-color: rgb(238, 178, 154);
+    margin: 0 -20em 0 -20em;
+    border-bottom: 3px solid rgb(96, 100, 165);
+    border-top: 3px solid rgb(96, 100, 165);
+}
+
+/* Here is the rest of my website's formatting. */
+body {
+    /*Here is the Google Font*/
+    font-family: "Lilita One", sans-serif;
+    text-align: center;
+    font-size: medium;
+    color: rgb(54, 58, 103);
+    background-color: #2d304b;
+}
+
+/*Page Built with Grid Layout*/
+main {
+    /*This is the main formatting for the Grid Layout*/
+    display: grid;
+    grid-template: repeat(3, 25%)/repeat(2, 20%);
+    grid-gap: 15px 20px;
+    grid-row-gap: 15%;
+    justify-content: space-evenly;
+}
+
+header {
+    /*Formatting for the few beginning notes at the top of the website.*/
+    border-radius: 15px;
+    border: 3px, solid, rgb(96, 100, 165);
+    background-color: rgb(227, 229, 243);
+    margin: 2% 36%;
+    width: 30%;
+}
+
+img {
+    /*Basic image formatting notes.*/
+    width: 100%;
+    border-radius: 15px;
+    background-color: rgb(238, 178, 154);
+    padding: 1%;
+    border: 3px, solid, rgb(187, 81, 40);
+}
+
+footer {
+    height: 40px;
+    align-items: center;
+    justify-items: center;
+}
+
+/*This page's Media Queries*/
+@media only screen and (max-width: 920px) {
+
+    #nav_menu ul li a {
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+
+    header {
+        width: 50%;
+        margin: 2% 26%;
+    }
+}
+
+@media only screen and (max-width: 1020px) {
+
+    #nav_menu ul li a {
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+}
+
+@media only screen and (max-width: 670px) {
+
+    #nav_menu ul li a {
+        padding-left: .25em;
+        padding-right: .25em;
+    }
+}
