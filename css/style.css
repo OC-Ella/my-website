@@ -38,6 +38,7 @@ html {
     color: rgb(227, 229, 243);
     border: none;
     box-shadow: 0 0 2em rgb(187, 81, 40, 1);
+    transition: all .8s;
 }
 
 nav {
@@ -50,6 +51,10 @@ nav {
 }
 
 /* Here is most of my website's formatting. */
+h1{
+    padding-left: 3%;
+}
+
 body {
     /*Here is the Google Font*/
     font-family: "Lilita One", sans-serif;
@@ -124,15 +129,19 @@ img {
     text-align: center;
     background: rgb(238, 178, 154);
     border: 3px solid rgb(96, 100, 165);
+    width: 118%;
+    margin-left: -12%;
+    padding: 1%;
+    padding-left: 4%;
+    font-size: large;
 }
 
 #catinfo {
     /*Formatting for the "My Cats!!!" section*/
     text-align: center;
-    margin-left: 50%;
-    margin-right: 50%;
-    width: 25%;
-    margin-left: 38%;
+    width: 120.5%;
+    margin-left: -12%;
+    padding-left: 2%;
 }
 
 footer {
@@ -140,19 +149,18 @@ footer {
     margin-right: 30%;
     text-align: center;
     border-radius: 3px !important;
-    color: rgb(187, 81, 40);
+    color: rgb(54, 58, 103);
     font-weight: lighter;
     width: 25%;
     margin: 2.5% 38.5%;
+    padding: 0 100%;
+    margin-left: -62%;
+    background-color: rgb(238, 178, 154) !important;
 }
 
 /*All of this page's Media Queries*/
 
 @media only screen and (max-width: 1200px) {
-    #catinfo {
-        width: 50%;
-        margin-left: 25%;
-    }
 
     img {
         width: 80%;
@@ -165,6 +173,22 @@ footer {
         padding-left: 1em;
         padding-right: 1em;
     }
+
+    #catinfo {
+        width: 132%;
+        padding: 2%;
+        margin-left: -18%;
+    }
+
+    article {
+        padding: 8%;
+        margin-left: -19%;
+    }
+
+    #cabbage {
+        padding: 2% 8%;
+        margin: 3% -20% 3% -18%;
+    }
 }
 
 @media only screen and (max-width: 670px) {
@@ -172,5 +196,51 @@ footer {
     #nav_menu ul li a {
         padding-left: .25em;
         padding-right: .25em;
+    }
+
+    #catinfo {
+        width: 132%;
+        padding: 2%;
+        margin-left: -18%;
+    }
+
+    article {
+        padding: 8%;
+        margin-left: -19%;
+    }
+
+    #cabbage {
+        padding: 2% 8%;
+        margin: 3% -20% 3% -20%;
+    }
+
+    footer {
+        padding: 0 100%;
+        margin-left: -60%;
+    }
+
+    #nav_menu ul {
+        flex-direction: column;
+        justify-content: center;
+        list-style-type: none;
+    }
+
+    #nav_menu ul li a {
+        text-align: center;
+        display: block;
+        justify-content: space-evenly;
+        text-decoration: none;
+        background-color: #e3e5f3;
+        color: rgb(187, 81, 40);
+        border: 2px solid rgb(96, 100, 165);
+        border-radius: 100px;
+        margin-bottom: 3%;
+        margin-left: -9%;
+    }
+
+    nav {
+        margin: 1%;
+        margin: 0 -35%;
+        padding: 0 20%;
     }
 }
