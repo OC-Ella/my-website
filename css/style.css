@@ -198,11 +198,6 @@ footer {
 }
 
 @media only screen and (max-width: 800px) {
-
-    html{
-        margin: 0 15% !important;
-    }
-
     #nav_menu ul li a {
         padding-left: .25em;
         padding-right: .25em;
@@ -262,7 +257,8 @@ footer {
     }
 
     footer {
-        padding: 0 100%;
-        margin-left: -60%;
+        padding: 0 28%;
+        margin-left: -18%;
+        width: 80%;
     }
 }
