@@ -164,16 +164,16 @@ img {
         font-size: x-large;
     }
 
+    article {
+        padding: 8%;
+        margin-left: -19%;
+    }
+
     #catinfo {
         width: 132%;
         padding: 2%;
         margin-left: -18%;
         font-size: large;
-    }
-
-    article {
-        padding: 8%;
-        margin-left: -19%;
     }
 
     #cabbage {
@@ -184,27 +184,18 @@ img {
 }
 
 @media only screen and (max-width: 800px) {
+
+    /*This querey is what turns the horizonatal navigation menu into a hambuger navigation menu*/
     #nav_menu ul li a {
         padding-left: .25em;
         padding-right: .25em;
     }
 
     #nav_menu ul {
-        display: flex;
         flex-direction: column;
-        justify-content: center;
-        list-style-type: none;
     }
 
     #nav_menu ul li a {
-        text-align: center;
-        display: block;
-        justify-content: space-evenly;
-        text-decoration: none;
-        background-color: #e3e5f3;
-        color: rgb(187, 81, 40);
-        border: 2px solid rgb(96, 100, 165);
-        border-radius: 100px;
         margin-bottom: 3%;
         margin-left: -9%;
     }
@@ -215,11 +206,7 @@ img {
         padding: 0 20%;
     }
 
-    #catinfo {
-        width: 132%;
-        padding: 2%;
-        margin-left: -18%;
-    }
+    /*Here are the rest of the minor fixes for the page.*/
 
     article {
         display: flex;
@@ -234,6 +221,12 @@ img {
 
     #elise {
         margin-top: 5%;
+    }
+
+    #catinfo {
+        width: 132%;
+        padding: 2%;
+        margin-left: -18%;
     }
 
     #cabbage {

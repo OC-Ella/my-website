@@ -84,7 +84,7 @@ img {
     width: 80%;
     margin: 5%;
     margin-left: 8%;
-    border: 3px solid, rgb(187, 81, 40);
+    border: 3px solid rgb(187, 81, 40);
     background-color: rgb(238, 178, 154);
 }
 
@@ -116,47 +116,29 @@ img {
 }
 
 @media only screen and (max-width: 670px) {
-    img {
-        width: 75%;
-    }
 
-    ul {
-        font-size: small;
-    }
-
-    p {
-        font-size: medium;
-    }
-
+    /*This querey is what turns the horizonatal navigation menu into a hambuger navigation menu*/
     #nav_menu ul {
         flex-direction: column;
-        justify-content: center;
-        list-style-type: none;
     }
 
     #nav_menu ul li a {
-        text-align: center;
-        display: block;
-        justify-content: space-around;
-        text-decoration: none;
-        background-color: #e3e5f3;
-        color: rgb(187, 81, 40);
-        border: 2px solid rgb(96, 100, 165);
-        border-radius: 100px;
         width: 70%;
         margin-left: -10%;
-        font-size: large;
-        padding: 0 20%;
         padding-left: 15%;
         padding-right: 15%;
     }
 
     nav {
         margin: 1%;
-        margin: 0 -35%;
         padding: 0 20%;
         width: 68%;
-        margin-left: -1%;
+        margin-left: -2%;
+    }
+
+    /*And here are the other little fixes for the page.*/
+    img {
+        width: 75%;
     }
 
     h1 {
