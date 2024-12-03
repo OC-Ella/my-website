@@ -199,6 +199,10 @@ footer {
 
 @media only screen and (max-width: 800px) {
 
+    body{
+        margin-left: 5%;
+    }
+
     #nav_menu ul li a {
         padding-left: .25em;
         padding-right: .25em;
