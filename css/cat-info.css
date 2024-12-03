@@ -38,9 +38,14 @@ nav {
     text-align: center;
     font-size: large;
     background-color: rgb(238, 178, 154);
-    margin: 0 -20em 0 -20em;
+    margin: 0 -1em;
     border-bottom: 3px solid rgb(96, 100, 165);
     border-top: 3px solid rgb(96, 100, 165);
+    padding-right: 3%;
+}
+
+h1 {
+    padding-left: 3%;
 }
 
 /* Here is the rest of my website's formatting. */
@@ -118,6 +123,10 @@ img {
     #nav_menu ul li a {
         padding-left: 1em;
         padding-right: 1em;
+    }
+
+    h1 {
+        padding-left: 5%;
     }
 }
 

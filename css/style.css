@@ -45,9 +45,10 @@ nav {
     text-align: center;
     font-size: large;
     background-color: rgb(238, 178, 154);
-    margin: 0 -20em 0 -20em;
+    margin: 0 -13.5em;
     border-bottom: 3px solid rgb(96, 100, 165);
     border-top: 3px solid rgb(96, 100, 165);
+    padding-right: 3%;
 }
 
 /* Here is most of my website's formatting. */
@@ -129,7 +130,7 @@ img {
     text-align: center;
     background: rgb(238, 178, 154);
     border: 3px solid rgb(96, 100, 165);
-    width: 118%;
+    width: 115%;
     margin-left: -12%;
     padding: 1%;
     padding-left: 4%;
@@ -139,7 +140,7 @@ img {
 #catinfo {
     /*Formatting for the "My Cats!!!" section*/
     text-align: center;
-    width: 120.5%;
+    width: 118.5%;
     margin-left: -12%;
     padding-left: 2%;
 }
