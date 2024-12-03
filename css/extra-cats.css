@@ -154,7 +154,7 @@ img {
     nav {
         margin: 1%;
         margin: 0 -35%;
-        padding:0 20%;
+        padding: 0 20%;
         width: 68%;
         margin-left: -1%;
     }
@@ -163,21 +163,21 @@ img {
         margin-left: -7%;
     }
 
-    main{
+    main {
         display: grid;
         justify-content: center;
     }
 
-    div{
+    div {
         width: 97%;
         margin: 2%;
     }
 
-    p{
+    p {
         font-size: x-large;
     }
 
-    ul{
+    ul {
         font-size: large;
     }
 }

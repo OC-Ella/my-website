@@ -102,10 +102,12 @@ img {
         padding-left: 1em;
         padding-right: 1em;
     }
-    ul{
+
+    ul {
         font-size: large;
     }
-    p{
+
+    p {
         font-size: x-large;
     }
 }
@@ -120,11 +122,11 @@ img {
 
 @media only screen and (max-width: 750px) {
 
-    img{
+    img {
         margin-top: 5%;
     }
 
-    main{
+    main {
         display: grid;
     }
 
@@ -163,7 +165,7 @@ img {
     nav {
         margin: 1%;
         margin: 0 -35%;
-        padding:0 20%;
+        padding: 0 20%;
         width: 68%;
         margin-left: -1%;
     }
@@ -176,7 +178,7 @@ img {
         padding-right: .25em;
     }
 
-    main{
+    main {
         display: grid;
     }
 }
