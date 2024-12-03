@@ -117,7 +117,7 @@ img {
     background-color: rgb(238, 178, 154);
 }
 
-/*Here is the formatting details for the two sections with links and the footer.*/
+/*Here is the formatting details for the two sections with links.*/
 .design-ect {
     background-color: #e3e5f3;
     border: 3px solid rgb(96, 100, 165);
@@ -142,20 +142,6 @@ img {
     width: 120.5%;
     margin-left: -12%;
     padding-left: 2%;
-}
-
-footer {
-    margin-left: 30%;
-    margin-right: 30%;
-    text-align: center;
-    border-radius: 3px !important;
-    color: rgb(54, 58, 103);
-    font-weight: lighter;
-    width: 25%;
-    margin: 2.5% 38.5%;
-    padding: 0 100%;
-    margin-left: -62%;
-    background-color: rgb(238, 178, 154) !important;
 }
 
 /*All of this page's Media Queries*/
@@ -254,11 +240,5 @@ footer {
         width: 120%;
         padding: 2% 8%;
         margin: 3% -20% 3% -18%;
-    }
-
-    footer {
-        padding: 0 28%;
-        margin-left: -18%;
-        width: 80%;
     }
 }
