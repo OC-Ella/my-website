@@ -200,7 +200,7 @@ footer {
 @media only screen and (max-width: 800px) {
 
     body{
-        margin-left: 5%;
+        margin-left: 25%;
     }
 
     #nav_menu ul li a {
